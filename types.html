@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex App | Search by Type</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-dark">
+    <header class="mb-5 border-bottom border-white">
+        <nav class="navbar navbar-light">
+            <div class="container-fluid d-flex align-items-center">
+                <h1 class="display-5 text-white m-3">Pokédex App</h1>
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-white" href="./index.html">[ Search by Name ]</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-white" href="./types.html"><b>[ Search by Type ]</b></a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link text-white" href="./favourites.html">[ Favourites ]</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div id="inputs">
+
+        <form class="d-flex flex-column justify-content-center align-items-center">
+            <div class="mb-3">
+                <label for="pname" class="form-label text-white">Select a Type</label>
+            </div>
+            <div class="dropdown mb-3 ">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Types
+                </button>
+                <ul class="dropdown-menu p-3">
+                    <li><input type="checkbox" class="form-check-input" id="normal"> <label for="normal"
+                            class="text-capitalize">normal</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="fighting"> <label for="fighting"
+                            class="text-capitalize">fighting</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="flying"> <label for="flying"
+                            class="text-capitalize">flying</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="poison"> <label for="poison"
+                            class="text-capitalize">poison</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="ground"> <label for="ground"
+                            class="text-capitalize">ground</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="rock"> <label for="rock"
+                            class="text-capitalize">rock</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="bug"> <label for="bug"
+                            class="text-capitalize">bug</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="ghost"> <label for="ghost"
+                            class="text-capitalize">ghost</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="steel"> <label for="steel"
+                            class="text-capitalize">steel</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="fire"> <label for="fire"
+                            class="text-capitalize">fire</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="water"> <label for="water"
+                            class="text-capitalize">water</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="grass"> <label for="grass"
+                            class="text-capitalize">grass</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="electric"> <label for="electric"
+                            class="text-capitalize">electric</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="psychic"> <label for="psychic"
+                            class="text-capitalize">psychic</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="ice"> <label for="ice"
+                            class="text-capitalize">ice</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="dragon"> <label for="dragon"
+                            class="text-capitalize">dragon</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="dark"> <label for="dark"
+                            class="text-capitalize">dark</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="fairy"> <label for="fairy"
+                            class="text-capitalize">fairy</label></li>
+                    <li><input type="checkbox" class="form-check-input" id="stellar"> <label for="stellar"
+                            class="text-capitalize">stellar</label></li>
+                </ul>
+            </div>
+        </form>
+
+    </div>
+
+    <div id="main-display" class="row justify-content-center bg-primary m-3 rounded">
+
+    </div>
+
+    <footer class="border-top border-white mt-5 mb-5">
+        <p class="text-white text-center m-4">© 2023 Pokédex Project. All rights reserved.</p>
+        <p class="text-white text-center me-5 ms-5">
+            <small>
+            This is a fan-made project for educational purposes and is not affiliated with, endorsed by, or sponsored by Nintendo, Creatures Inc., GAME FREAK inc., or The Pokémon Company. Pokémon and all related properties are © Nintendo, Creatures Inc., and GAME FREAK inc.
+            <br>
+            <br>
+            Created by Jacob Waldner - <a href="https://github.com/jacobi-waldino" type="text/html">Github</a>
+            </small>
+        </p>
+    </footer>
+
+    <script src="./scripts/types.js"></script> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
