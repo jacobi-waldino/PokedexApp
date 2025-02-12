@@ -1,6 +1,8 @@
-## Pokédex App
+## [Pokédex App](https://jacobi-waldino.github.io/PokedexApp/)
 
 Search Pokémon by Name, ID, or Type to discover their stats, moves, and more, and "capture" your favourites. Open index.html in a browser to get started.
+
+Try it out [here](https://jacobi-waldino.github.io/PokedexApp/)!
 
 Features include:
 
